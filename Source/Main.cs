@@ -20,7 +20,7 @@ namespace KTNoPrisonBreaks
             [HarmonyPrefix]
             static bool PrisonBreakPrefix()
             {
-                Log.Message("Prison break suppressed by KasumiTakeshi's No Prison Breaks [1.1]");
+                Log.Message("Prison break suppressed by KasumiTakeshi's No Prison Breaks [1.1,1.2]");
                 return false;
             }
         }
